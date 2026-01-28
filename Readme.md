@@ -1,4 +1,4 @@
-# Supercapacitor Capacitance Predictor ⚡
+# Machine Learning–Based Prediction of Supercapacitor Capacitance from Literature-Derived Data ⚡
 
 This project focuses on predicting the **specific capacitance (F/g)** of **carbon-based supercapacitors** using machine learning techniques.  
 By leveraging material properties, pore structure, electrolyte type, and electrochemical parameters, the model helps estimate performance without extensive experimental trials.
