@@ -58,26 +58,6 @@ Some non-informative or text-heavy columns were removed:
 - **RobustScaler** used to handle skewed distributions and outliers
 
 ---
-
-## 🧠 Models Used
-
-### ✅ Random Forest Regressor
-- `n_estimators = 200`
-- Captures non-linear relationships effectively
-- Robust to noise and overfitting
-Example output:
-```text
-  R-squared: 0.5287125823002969
-  Mean Absolute Error: 0.39373317320578183
-  Mean Squared Error: 0.2717238289811465
-
-
-
-### XGBoost Regressor
-- Imported for experimentation and future comparison
-
----
-
 ## 📈 Model Evaluation Metrics
 
 The model performance is evaluated using:
@@ -85,5 +65,33 @@ The model performance is evaluated using:
 - **R² Score** – goodness of fit
 - **Mean Absolute Error (MAE)**
 - **Mean Squared Error (MSE)**
+
+
+## 🧠 Models Used
+
+### ✅ Random Forest Regressor
+- `n_estimators = 200`
+- Captures non-linear relationships effectively
+- Robust to noise and overfitting
+  Model Metrics:
+```text
+  R-squared: 0.5287125823002969
+  Mean Absolute Error: 0.39373317320578183
+  Mean Squared Error: 0.2717238289811465
+```
+
+
+### XGBoost Regressor
+- Imported for experimentation and future comparison
+  Model Metrics:
+```text
+R-squared: 0.5057318386620042
+Mean Absolute Error: 0.39678280071083016
+Mean Squared Error: 0.2849735263414309
+Root Mean Squared Error: 0.5338291171727437
+```
+---
+
+
 
 
